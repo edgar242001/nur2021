@@ -1,0 +1,13 @@
+<? xml versión = "1.0" codificación = "UTF-8" ?>
+< Estado de configuración = "ADVERTENCIA" > 
+  <Anexos>
+    <Console name = "Console" target = "SYSTEM_OUT" >  
+      <PatternLayout pattern = "% d {HH: mm: ss.SSS} [% t]% -5level% logger {36} -% msg% n" /> 
+    </Consola>
+  </Appenders>
+  <Loggers>
+    < Nivel raíz = "error" > 
+      <AppenderRef ref = "Consola" /> 
+    </Root>
+  </Loggers>
+</Configuración>
